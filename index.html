@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mask Dance Cirebonese | Home</title>
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="Container">
+      <a href="index.html" class="logo">
+        <img src="assets/img/Logo.png" alt="" />
+      </a>
+      <ul>
+        <li><a class="heading2" href="#about">Tentang Kami</a></li>
+        <li><a class="heading2" href="event.html">Events</a></li>
+        <li><a class="heading2" href="tari_topeng.html">Tari Topeng</a></li>
+      </ul>
+      <a href="login.html" class="btn_login">Login</a>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="row">
+        <div class="col">
+          <div class="caption">Cinta adalah Kunci keragaman</div>
+          <div class="heading1">
+            NIkmati keragaman <br />
+            daripada membencinya
+          </div>
+          <div class="subheading1 m-bt">
+            Menyebarkan cinta, <br />
+            Menyebarkan budaya, <br />
+            Menjadi beragam
+          </div>
+          <a href="#" class="btn_mulai">MULAI</a>
+        </div>
+        <div class="col hero">
+          <img src="assets/img/hero_home.png" alt="" />
+        </div>
+      </div>
+      <!-- waves -->
+      <div class="waves">
+        <img src="assets/img/waves.png" alt="" />
+      </div>
+    </section>
+
+    <!-- tentang kami -->
+    <section class="about" id="about">
+      <div class="heading2_center down c_blue">Tentang Kami</div>
+      <div class="row">
+        <div class="col">
+          <img src="assets/img/hero_about.png" alt="" />
+        </div>
+        <div class="col">
+          <div class="box">
+            <div class="subheading2">MASK DANCE CIREBONESE ADALAH WEBSITE YANG DI BUAT DENGAN TUJUAN UNTUK MEMPERKENALKAN LEBIH LUAS TENTANG TARI TOPENG YANG BERASAL DARI CIREBON.</div>
+          </div>
+        </div>
+      </div>
+      <!-- waves -->
+      <div class="waves biru">
+        <img src="assets/img/waves2.png" alt="" />
+      </div>
+    </section>
+
+    <section class="topeng_home">
+      <div class="heading2_center down c_white">TARI TOPENG CIREBON</div>
+      <div class="row">
+        <div class="col">
+          <div class="box">
+            <div class="subheading2">Tari Topeng Cirebon adalah tarian yang penarinya mengenakan topeng. Kesenian ini merupakan kesenian asli daerah Cirebon,</div>
+            <a href="#" class="btn_more">Selengkapnya</a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="assets/img/tari_topeng.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section class="Container event_home">
+      <div class="heading2_center c_white">EVENTS</div>
+      <div class="boxContainer">
+        <div class="box">
+          <img src="assets/img/event.jpg" alt="" />
+          <div class="heading3">SEMARAK BUDAYA IDONESIA</div>
+          <a href="#" class="btn_read heading3">READ MORE</a>
+        </div>
+        <div class="box">
+          <img src="assets/img/event.jpg" alt="" />
+          <div class="heading3">SEMARAK BUDAYA IDONESIA</div>
+          <a href="#" class="btn_read heading3">READ MORE</a>
+        </div>
+        <div class="box">
+          <img src="assets/img/event.jpg" alt="" />
+          <div class="heading3">SEMARAK BUDAYA IDONESIA</div>
+          <a href="#" class="btn_read heading3">READ MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="Container">
+      <div class="row">
+        <div class="col">
+          <img src="assets/img/Logo.png" alt="logo" />
+          <div class="heading3 c_white">CINTA ADALAH KUNCI KERAGAMAN</div>
+          <ul>
+            <li><a class="heading3" href="index.html">Home</a></li>
+            <li><a class="heading3" href="#about">Tentang Kami</a></li>
+            <li><a class="heading3" href="event.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="heading2 c_white" style="font-size: 30px">SOSIAL MEDIA KAMI</div>
+          <div class="iconContainer">
+            <div class="icon">
+              <img src="assets/img/email.png" alt="" />
+              <div class="heading4 c_white">MDC_Official@gmail.com</div>
+            </div>
+            <div class="icon">
+              <img src="assets/img/ig.png" alt="" />
+              <div class="heading4 c_white">MDC_official</div>
+            </div>
+            <div class="icon">
+              <img src="assets/img/wa.png" alt="" />
+              <div class="heading4 c_white">088881828188</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright heading2 c_white">Design By <a class="c_white heading2" href="#">RANRAF</a></div>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
